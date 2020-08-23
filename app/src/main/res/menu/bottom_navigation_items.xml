@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/home" android:enabled="true" android:id="@+id/home" android:title="Home"/>
+    <item android:icon="@drawable/map" android:enabled="true" android:id="@+id/Map" android:title="Maps"/>
+    <item android:icon="@drawable/incidents" android:enabled="true" android:id="@+id/incidents" android:title="Incidents"/>
+    <item android:icon="@drawable/saccos" android:enabled="true" android:id="@+id/sacco" android:title="Sacco"/>
+    <item android:icon="@drawable/places_ic_search" android:enabled="true" android:id="@+id/region" android:title="Regions"/> /&gt; 
+</menu>

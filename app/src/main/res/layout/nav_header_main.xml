@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/profilepic" android:background="@drawable/profileavatar" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textColor="@android:color/white" android:id="@+id/usersname" android:paddingTop="@dimen/nav_header_vertical_spacing" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="Your Name Here" android:layout_below="@+id/profilepic"/>
+    <TextView android:textColor="@android:color/white" android:id="@+id/usersemail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="Your email Here" android:layout_below="@+id/usersname"/>
+</RelativeLayout>

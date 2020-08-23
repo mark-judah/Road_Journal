@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "697269640689",
+    "firebase_url": "https://trafficallerts.firebaseio.com",
+    "project_id": "trafficallerts",
+    "storage_bucket": "trafficallerts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697269640689:android:4d1fa28e4bb63343",
+        "android_client_info": {
+          "package_name": "com.RoadJournal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697269640689-j98ujn0v7r88vppt56o2dim5rgjjpcda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhoXECUWv2cSH3yZspVv1OizeTfvDJZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697269640689-j98ujn0v7r88vppt56o2dim5rgjjpcda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697269640689:android:f59bd2bebc924d51",
+        "android_client_info": {
+          "package_name": "com.example.n.trafficalerts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697269640689-j98ujn0v7r88vppt56o2dim5rgjjpcda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhoXECUWv2cSH3yZspVv1OizeTfvDJZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697269640689-j98ujn0v7r88vppt56o2dim5rgjjpcda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697269640689:android:453618e1a10373e3c77850",
+        "android_client_info": {
+          "package_name": "com.example.road_journal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697269640689-j98ujn0v7r88vppt56o2dim5rgjjpcda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwhoXECUWv2cSH3yZspVv1OizeTfvDJZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697269640689-j98ujn0v7r88vppt56o2dim5rgjjpcda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

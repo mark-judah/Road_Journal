@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/home" android:id="@+id/nav_home" android:title="Home"/>
+        <item android:icon="@drawable/map" android:id="@+id/nav_maps" android:title="Maps"/>
+        <item android:icon="@drawable/incidents" android:id="@+id/nav_incident" android:title="Incidents"/>
+        <item android:icon="@drawable/got_my_attention" android:id="@+id/nav_got_my_attention" android:title="Got my attention"/>
+        <item android:icon="@drawable/saccos" android:id="@+id/sacco_portal" android:title="Sacco portal"/>
+        <item android:icon="@drawable/settings" android:id="@+id/account_settings" android:title="Account Settings"/>
+        <item android:icon="@drawable/regions" android:id="@+id/regions" android:title="Regions"/>
+        <item android:icon="@drawable/travel" android:id="@+id/travel_story" android:title="Travel Blog"/>
+        <item android:icon="@drawable/dark_favorite" android:id="@+id/fav" android:title="Favorites"/>
+        <item android:icon="@drawable/ic_flash_on" android:id="@+id/speed" android:title="Report Speeding"/>
+        <item android:icon="@drawable/ic_flash_on" android:id="@+id/speedreports" android:title="NTSA"/>
+    </group>
+</menu>

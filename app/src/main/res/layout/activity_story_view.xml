@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="50dp" android:textStyle="bold" android:gravity="center_horizontal" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="200dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <TextView android:textSize="15dp" android:id="@+id/story" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <TextView android:textStyle="bold" android:id="@+id/time" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/editstory" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="46dp" android:src="@drawable/editwhite" android:layout_alignParentBottom="true" app:borderWidth="0dp" app:elevation="6dp" app:pressedTranslationZ="12dp"/>
+</RelativeLayout>

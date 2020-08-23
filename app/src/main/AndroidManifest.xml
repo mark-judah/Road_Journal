@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="preferExternal"
+    package="com.example.road_journal">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/roundlogo"
+        android:theme="@style/AppTheme.NoActionBar">
+
+
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="@string/app_name" android:name="com.example.road_journal.Activities.SignUp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="Home" android:name="com.example.road_journal.Activities.MainActivity"/>
+        <activity android:name="com.example.road_journal.Activities.upload"/>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:name="com.example.road_journal.Activities.login"/>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:name="com.example.road_journal.Activities.IncidentsActivity" android:parentActivityName="com.example.road_journal.Activities.MainActivity"/>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:name="com.example.road_journal.Activities.live_map" android:parentActivityName="com.example.road_journal.Activities.MainActivity"/>
+        <activity android:label="Comments" android:name="com.example.road_journal.Activities.CommentsActivity" android:parentActivityName="com.example.road_journal.Activities.MainActivity"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key"/>
+        <activity android:name="com.example.road_journal.Activities.Uploadtext"/>
+        <activity android:label="Account Settings" android:name="com.example.road_journal.Activities.Account_Settings" android:parentActivityName="com.example.road_journal.Activities.MainActivity"/>
+        <activity android:label="Edit Profile" android:name="com.example.road_journal.Activities.Edit_profile" android:parentActivityName="com.example.road_journal.Activities.Account_Settings"/>
+        <activity android:label="Got my attention" android:name="com.example.road_journal.Activities.GMA" android:parentActivityName="com.example.road_journal.Activities.MainActivity"/>
+        <activity android:name="com.example.road_journal.Activities.gmaUpload"/>
+        <activity android:name="com.example.road_journal.Activities.posts" android:parentActivityName="com.example.road_journal.Activities.Account_Settings"/>
+        <activity android:name="com.example.road_journal.Activities.Sacco_list" android:parentActivityName="com.example.road_journal.Activities.MainActivity"/>
+        <activity android:name="com.example.road_journal.Activities.user_portal" android:parentActivityName="com.example.road_journal.Activities.Sacco_list"/>
+        <activity android:name="com.example.road_journal.Activities.IssueActivity" android:parentActivityName="com.example.road_journal.Activities.user_portal"/>
+        <activity android:name="com.example.road_journal.Activities.Sacco_portal" android:parentActivityName="com.example.road_journal.Activities.MainActivity"/>
+        <activity android:name="com.example.road_journal.Activities.RegisterSacco" android:parentActivityName="com.example.road_journal.Activities.Sacco_list"/>
+        <activity android:name="com.example.road_journal.Activities.Sacco_issues"/>
+        <activity android:name="com.example.road_journal.Activities.RegionsList" android:parentActivityName="com.example.road_journal.Activities.MainActivity"/>
+        <activity android:name="com.example.road_journal.Activities.RegionsActivity" android:parentActivityName="com.example.road_journal.Activities.RegionsList"/>
+        <activity android:name="com.example.road_journal.Activities.Change_password" android:parentActivityName="com.example.road_journal.Activities.Account_Settings"/>
+        <activity android:label="Travel Blogs" android:name="com.example.road_journal.Activities.TravelBlog" android:parentActivityName="com.example.road_journal.Activities.MainActivity"/>
+        <activity android:name="com.example.road_journal.Activities.post_story" android:parentActivityName="com.example.road_journal.Activities.TravelBlog"/>
+        <activity android:name="com.example.road_journal.Activities.StoryView"/>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:name="com.example.road_journal.Activities.FullscreenActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:name="com.example.road_journal.Activities.Changepass"/>
+        <activity android:name="com.example.road_journal.Activities.SaccoResponse"/>
+        <activity android:name="com.example.road_journal.Activities.UserInbox"/>
+        <activity android:name="com.example.road_journal.Activities.FetchFavorite"/>
+        <activity android:name="com.example.road_journal.Activities.Edit_image"/>
+        <activity android:name="com.example.road_journal.Activities.Edit_text"/>
+        <activity android:name="com.example.road_journal.Activities.Edit_gma"/>
+        <activity android:name="com.example.road_journal.Activities.Edit_travelstory"/>
+        <activity android:label="Report Speeding" android:name="com.example.road_journal.Activities.ReportSpeed"/>
+        <activity android:name="com.example.road_journal.Activities.SpeedReports"/>
+        <service android:name="com.example.road_journal.Activities.LocationService"/>
+        <activity android:name="com.example.road_journal.Activities.ExternalLink">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http" android:host="www.saminnoafrica.com" android:pathPrefix="/posts"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

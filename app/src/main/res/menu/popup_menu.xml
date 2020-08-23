@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@mipmap/ic_launcher" android:title="Choose category" app:showAsAction="never">
+        <menu>
+            <item android:icon="@drawable/traffic" android:id="@+id/traffic" android:title="Traffic"/>
+            <item android:icon="@drawable/weather" android:id="@+id/weather" android:title="Weather"/>
+            <item android:icon="@drawable/accidents" android:id="@+id/accident" android:title="Accident"/>
+            <item android:icon="@drawable/security" android:id="@+id/security" android:title="Security"/>
+            <item android:icon="@drawable/divertion" android:id="@+id/road_divertion" android:title="Road Divertion"/>
+            <item android:icon="@drawable/speeding" android:id="@+id/dangerous_driving" android:title="Dangerous Driving"/>
+            <item android:icon="@drawable/construction" android:id="@+id/construction_works" android:title="Construction Works"/>
+            <item android:icon="@drawable/fire" android:id="@+id/fire" android:title="Fire"/>
+        </menu>
+    </item>
+</menu>

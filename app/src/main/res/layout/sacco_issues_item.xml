@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView android:id="@+id/placeCardDescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" app:cardCornerRadius="1dp" app:cardElevation="3dp">
+        <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/reporters_username" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/reporters_email" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/reporters_phonenumber" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/reporters_message" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end" android:id="@+id/fabreply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comment"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@mipmap/ic_launcher" android:title="Share via" app:showAsAction="never">
+        <menu>
+            <item android:icon="@drawable/whatsapp" android:id="@+id/whatsapp" android:title="Whatsapp"/>
+            <item android:icon="@drawable/twitter" android:id="@+id/twitter" android:title="Twitter"/>
+            <item android:icon="@drawable/telegram" android:id="@+id/telegram" android:title="Telegram"/>
+            <item android:icon="@drawable/instagram" android:id="@+id/instagram" android:title="Instagram"/>
+            <item android:icon="@drawable/linkedin" android:id="@+id/linkedin" android:title="LinkedIn"/>
+        </menu>
+    </item>
+</menu>

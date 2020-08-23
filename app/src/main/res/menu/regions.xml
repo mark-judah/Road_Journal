@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/baringo" android:title="Baringo"/>
+    <item android:id="@+id/bomet" android:title="Bomet"/>
+    <item android:id="@+id/bungoma" android:title="Bungoma"/>
+    <item android:id="@+id/busia" android:title="Busia"/>
+    <item android:id="@+id/elgeyo" android:title="Elgeyo Marakwet"/>
+    <item android:id="@+id/embu" android:title="Embu"/>
+    <item android:id="@+id/garissa" android:title="Garissa"/>
+    <item android:id="@+id/homabay" android:title="Homa Bay"/>
+    <item android:id="@+id/isiolo" android:title="Isiolo"/>
+    <item android:id="@+id/kajiado" android:title="Kajiado"/>
+    <item android:id="@+id/kakamega" android:title="Kakamega"/>
+    <item android:id="@+id/kericho" android:title="Kericho"/>
+    <item android:id="@+id/kiambu" android:title="Kiambu"/>
+    <item android:id="@+id/kilifi" android:title="Kilifi"/>
+    <item android:id="@+id/kirinyaga" android:title="Kirinyaga"/>
+    <item android:id="@+id/kisii" android:title="Kisii"/>
+    <item android:id="@+id/kisumu" android:title="Kisumu"/>
+    <item android:id="@+id/kitui" android:title="Kitui"/>
+    <item android:id="@+id/kwale" android:title="Kwale"/>
+    <item android:id="@+id/laikipia" android:title="Laikipia"/>
+    <item android:id="@+id/lamu" android:title="Lamu"/>
+    <item android:id="@+id/machakos" android:title="Machakos"/>
+    <item android:id="@+id/makueni" android:title="Makueni"/>
+    <item android:id="@+id/mandera" android:title="Mandera"/>
+    <item android:id="@+id/meru" android:title="Meru"/>
+    <item android:id="@+id/marsabit" android:title="Marsabit"/>
+    <item android:id="@+id/migori" android:title="Migori"/>
+    <item android:id="@+id/mombasa" android:title="Mombasa"/>
+    <item android:id="@+id/muranga" android:title="Muranga"/>
+    <item android:id="@+id/nairobi" android:title="Nairobi"/>
+    <item android:id="@+id/nakuru" android:title="Nakuru"/>
+    <item android:id="@+id/nandi" android:title="Nandi"/>
+    <item android:id="@+id/narok" android:title="Narok"/>
+    <item android:id="@+id/nyamira" android:title="Nyamira"/>
+    <item android:id="@+id/nyandarua" android:title="Nyandarua"/>
+    <item android:id="@+id/nyeri" android:title="Nyeri"/>
+    <item android:id="@+id/samburu" android:title="Samburu"/>
+    <item android:id="@+id/siaya" android:title="Siaya"/>
+    <item android:id="@+id/taita" android:title="Taita Taveta"/>
+    <item android:id="@+id/tanariver" android:title="Tana River"/>
+    <item android:id="@+id/tharaka" android:title="Tharaka Nithi"/>
+    <item android:id="@+id/transnzoia" android:title="Trans Nzoia"/>
+    <item android:id="@+id/turkana" android:title="Turkana"/>
+    <item android:id="@+id/uasingishu" android:title="Uasin Gishu"/>
+    <item android:id="@+id/vihiga" android:title="Vihiga"/>
+    <item android:id="@+id/wajir" android:title="Wajir"/>
+    <item android:id="@+id/westpokot" android:title="West Pokot"/>
+</menu>

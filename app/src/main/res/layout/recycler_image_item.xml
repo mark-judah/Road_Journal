@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/card_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" app:cardCornerRadius="4dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/profilepic" android:background="@drawable/profileavatar" android:layout_width="50dp" android:layout_height="50dp"/>
+                <TextView android:id="@+id/userprofilename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/profilepic"/>
+                <TextView android:id="@+id/userrepostname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+                <TextView android:id="@+id/usertown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/userrepostname" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="250dp" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textColor="@color/colorPrimary" android:id="@+id/road" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="false"/>
+            <TextView android:textColor="@color/colorPrimary" android:id="@+id/place" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:scrollHorizontally="false" android:layout_toRightOf="@+id/road"/>
+            <TextView android:textColor="@color/colorPrimary" android:id="@+id/incident" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="" android:scrollHorizontally="false" android:layout_toRightOf="@+id/place"/>
+        </RelativeLayout>
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/ImageNameTextView" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <RelativeLayout android:id="@+id/relLayout2" android:background="@color/white" android:layout_width="match_parent" android:layout_height="50dp" android:layout_below="@+id/post_image">
+            <ImageView android:id="@+id/blankfavorite" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/favorite" android:layout_centerVertical="true"/>
+            <TextView android:textSize="15sp" android:id="@+id/favcount" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/blankfavorite" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/imgComments" android:visibility="visible" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="10dp" android:src="@drawable/comment" android:layout_toRightOf="@+id/favcount" android:layout_centerVertical="true"/>
+            <TextView android:textSize="15sp" android:id="@+id/commentcount" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/imgComments" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/imgrepost" android:visibility="visible" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="10dp" android:src="@drawable/repost" android:layout_toRightOf="@+id/commentcount" android:layout_centerVertical="true"/>
+            <TextView android:textSize="15sp" android:id="@+id/repostcount" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/imgrepost" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/imgShare" android:visibility="visible" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="10dp" android:src="@drawable/share" android:layout_toRightOf="@+id/repostcount" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/imgdelete" android:visibility="invisible" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="28dp" android:src="@drawable/delete" android:layout_toRightOf="@+id/imgShare" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/imagedit" android:visibility="invisible" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="28dp" android:src="@drawable/edit" android:layout_toRightOf="@+id/imgdelete" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="12sp" android:textColor="@android:color/darker_gray" android:id="@+id/time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

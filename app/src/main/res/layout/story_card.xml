@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/card_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" app:cardCornerRadius="4dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="20dp" android:textStyle="bold" android:id="@+id/story_title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:ellipsize="end" android:id="@+id/story_intro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/relLayout2" android:background="@color/white" android:layout_width="match_parent" android:layout_height="50dp" android:layout_below="@+id/post_image">
+            <ImageView android:id="@+id/blankfavorite" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/favorite" android:layout_centerVertical="true"/>
+            <TextView android:textSize="20sp" android:id="@+id/favcount" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/blankfavorite" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/imgComments" android:visibility="visible" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="10dp" android:src="@drawable/comment" android:layout_toRightOf="@+id/favcount" android:layout_centerVertical="true"/>
+            <TextView android:textSize="20sp" android:id="@+id/commentcount" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/imgComments" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/imgshare" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="10dp" android:src="@drawable/share" android:layout_toRightOf="@+id/commentcount" android:layout_centerVertical="true"/>
+            <TextView android:gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/time" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/delete" android:background="@drawable/delete" android:visibility="gone" android:layout_width="30dp" android:layout_height="30dp" android:layout_alignTop="@+id/blankfavorite"/>
+        </RelativeLayout>
+        <TextView android:gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/author" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

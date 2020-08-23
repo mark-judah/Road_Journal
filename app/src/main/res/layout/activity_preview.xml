@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true"/>
+            <VideoView android:layout_gravity="center_horizontal" android:id="@+id/video" android:visibility="gone" android:layout_width="match_parent" android:layout_height="300dp"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:background="@color/colorPrimary" android:layout_width="2.5dp" android:layout_height="match_parent"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+                    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="RESOLUTION"/>
+                    <TextView android:textSize="14.5sp" android:textColor="@android:color/black" android:id="@+id/actualResolution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+                <View android:background="@color/colorPrimary" android:layout_width="2.5dp" android:layout_height="match_parent"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+                    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="APPROX. UNCOMPRESSED SIZE"/>
+                    <TextView android:textSize="14.5dp" android:textColor="@android:color/black" android:id="@+id/approxUncompressedSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+                <View android:background="@color/colorPrimary" android:layout_width="2.5dp" android:layout_height="match_parent"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+                    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="CAPTURE LATENCY"/>
+                    <TextView android:textSize="14.5sp" android:textColor="@android:color/black" android:id="@+id/captureLatency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

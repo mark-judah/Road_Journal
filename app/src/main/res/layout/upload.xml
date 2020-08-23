@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/snackbarhere" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/imageView2" android:layout_width="match_parent" android:layout_height="250dp" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+            <EditText android:id="@+id/town" android:background="@drawable/edittextbackground" android:paddingBottom="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Town or City...." android:inputType="textMultiLine"/>
+            <EditText android:id="@+id/location" android:background="@drawable/edittextbackground" android:paddingBottom="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Place Of Incident...." android:inputType="textMultiLine"/>
+            <EditText android:id="@+id/road" android:background="@drawable/edittextbackground" android:paddingBottom="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Name of the road" android:inputType="textMultiLine"/>
+            <EditText android:textSize="20sp" android:id="@+id/editText" android:background="@drawable/edittextbackground" android:paddingBottom="35dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Add comment...." android:inputType="textMultiLine"/>
+            <Button android:textColor="@color/white" android:id="@+id/upload" android:background="@drawable/rounded_shape" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="upload" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
