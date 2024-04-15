@@ -6,6 +6,8 @@ traffic congestion, beautiful scenery, or anything noteworthy, users can post te
 Post Incidents: Create posts with text or images to share road incidents or experiences.<br>
 View Incidents: Browse through a feed to discover updates from other users.<br>
 Interact: Like, comment, and share interesting posts.<br>
+Report overspeeding: Measure vehicles current speeds and snd report to authorities.<br>
+
 <br>
 <h2>Installation and Usage</h2><br>
 Requirements<br>
